@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Hammersmith+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Hammersmith+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&family=Signika+Negative:wght@300..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+nav img{
+    width: 10%;
+}
+nav a{
+    text-decoration: none;
+    text-align: right;
+    /* margin-left: 30% ; */
+    font-family: 'Lexend Deca';
+    font-size: 17px;
+    color: rgb(156, 155, 155);
+    transition-duration: 0.7s;
+}
+nav a:hover{
+    background-color: rgba(255, 0, 0, 0.541);
+    padding: 15px;
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: black;
+    height: 85vh;
+
+}
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-bottom: 15%;
+}
+.home .text{
+    width: 50%;
+    color: white;
+    margin-left: 3%;
+    text-align: left;
+} 
+.home .text h1 span{
+    color: red;
+    font-size: 55px;
+    font-family: 'Lexend Deca';
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.home .text h1 span:hover{
+    color: white;
+}
+
+.home .text h1{
+    font-size: 55px;
+    font-family: 'Lexend Deca';
+    transition-duration: 1s;
+    
+}
+.home .text h1:hover{
+    color: red;
+    cursor: pointer;
+
+}
+
+.home .text p{
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Signika Negative';
+    margin-bottom: 20px;
+}
+.home .text i{
+font-size: 30px;
+margin-left: 10px;
+background-color: black;
+/* border: 2px solid white; */
+padding: 10px;
+border-radius: 50%;
+cursor: pointer;
+transition-duration: 1s;
+}
+.home .text i:hover{
+    color: red;
+    box-shadow: 2px 2px 2px 1px #fff;
+    border: none;
+}
+
+.home .image{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+.home .image img{
+    width: 100%;
+    border: 2px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 20px;
+    transition-duration: 1s;
+}
+.home .image img:hover{
+    cursor: pointer;
+    box-shadow: 10px 0px 90px 5px rgba(255, 0, 0, 0.418);
+
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .sec {
+    width: 50%;
+    margin-left: 6%;
+}
+.about .sec img{
+    width: 80%;
+    border-radius: 20px;
+    opacity: 0.7;
+    transition-duration: 1s;
+    border: 2px solid white;
+}
+.about .sec img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 5px 10px 30px  2px #ffffff77;
+}
+.about .red{
+   width: 50%;
+   margin-right: 30px;
+}
+.about .red h1{
+    font-size: 30px;
+    font-family: 'Lexend Deca';
+    transition-duration: 1s;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.about .red h2{
+    color: rgb(99, 96, 96);
+    font-family: 'Hammersmith One';
+}
+
+.about .red p{
+    width: 80%;
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Signika Negative';
+    color: white;
+}
+.box{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.box1,.box2,.box3{
+    box-shadow: 3px 3px 20px 3px #e42121c2;
+    width: 30%;
+    border: 2px solid rgb(255, 0, 0);
+    height: 60vh;
+    text-align: center;
+    border-radius: 10px;
+}
+.box1 img,.box2 img,.box3 img{
+    width: 80%;
+    margin-top: 10%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+.box1 p,.box2 p,.box3 p{
+    font-family: 'Signika Negative';
+    width: 90%;
+    margin-left: 7%;
+    color: white;
+
+}
+h3{
+    margin-top: 10%;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Hammersmith One';
+    color: white;
+    letter-spacing: 5px;
+
+}
+.box-two{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* margin-bottom: 30%; */
+}
+
+.box4,.box5,.box6{
+    box-shadow: 3px 3px 20px 3px #ffffff81;
+    border: 2px solid white;
+    width: 30%;
+    height: 45vh;
+    text-align: center;
+    border-radius: 10px;
+}
+.box4 img,.box5 img,.box6 img{
+    width: 80%;
+    margin-top: 10%;
+    border: 2px solid white;
+    /* border-radius: 50%; */
+    margin-bottom: 10%;
+}
+.box4 p,.box5 p,.box6 p{
+    font-family: 'Signika Negative';
+    width: 90%;
+    margin-left: 7%;
+    color: red;
+
+}
+
+footer{
+    margin-top: 10%;
+    background-color: rgba(255, 0, 0, 0.438);
+    text-align: center;
+}
+h4{
+    color: white;
+    padding-top: 3%;
+    font-family: 'Hammersmith One';
+    font-size: 30px;
+    margin-bottom: 1%;
+
+}
+footer p{
+    font-family: 'Signika Negative';
+    margin-bottom: 2%;
+}
+input{
+    padding: 7px 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+input::placeholder{
+    color: white;
+    font-family: 'Signika Negative';
+}
+::selection{
+    background-color: black;
+    color: red;
+}
+button{
+    padding: 15px 40px;
+    margin-top: 10px;
+    background-color: black;
+    color: red;
+    border: none;
+    border-radius: 5px ;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    font-family: 'Signika Negative';
+
+}
+button:hover{
+    background: none;
+    color: black;
+    border: 2px solid black;
+}
+h5{
+    color: white;
+    font-family: 'Signika Negative';
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+
